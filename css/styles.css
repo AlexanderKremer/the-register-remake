@@ -55,7 +55,8 @@ main aside p {
 }
 
 main {
-	width: 40%;
+	width: 49%;
+	float: left;
 }
 
 hr {
@@ -149,4 +150,21 @@ article img {
 	position: relative;
 	top: -28px;
 	z-index: 1;
+}
+
+#extra {
+	width: 49%;
+	float: right;
+}
+
+#social {
+	background-color: #e5005f;
+	color: white;
+	padding: 40px;
+	text-align: right; 
+}
+
+#social a {
+	text-decoration: none;
+	color: inherit;
 }
