@@ -159,6 +159,7 @@ article h1:hover {
 #extra {
 	width: 49%;
 	float: right;
+	background-color: #F3F3F3;
 }
 
 #social {
@@ -198,4 +199,78 @@ article h1:hover {
 
 #newsletter a:hover {
 	background-color: black;
+}
+
+#left {
+	width: 50%;
+	float: left;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+
+#right {
+	width: 50%;
+	float: right;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+
+#extra section > h1 {
+	text-transform: uppercase;
+	font-size: 18px;
+	border-bottom: 1px solid #dddddd;
+	padding-bottom: 5px;
+}
+
+#comments img {
+	float: left;
+	padding: 0 10px 5px 0;
+}
+
+#comments p a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #333333;
+}
+
+#comments p a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+#comments article > a {
+	color: #e5005f;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+section {
+	margin-bottom: 40px;
+}
+
+#top-5 img {
+	float: left;
+	margin-right: 10px;
+}
+
+#top-5 a {
+	font-size: 14px;
+	color: #333333;
+	text-decoration: none;
+}
+
+#top-5 a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+#top-5 article {
+	border-bottom: 1px dashed #dddddd;
+	padding-bottom: 10px;
+}
+
+#top-5 article:after {
+	content: '';
+	display: block;
+	clear: both;
 }
