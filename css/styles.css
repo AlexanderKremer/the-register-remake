@@ -269,8 +269,57 @@ section {
 	padding-bottom: 10px;
 }
 
-#top-5 article:after {
+#top-5 article:after,
+#sponsers:after {
 	content: '';
 	display: block;
 	clear: both;
+}
+
+#sponsers img {
+	width: calc(33.333% - 10px);
+	float: left;
+	padding: 5px;
+	box-sizing: border-box;
+	border: 1px solid #dddddd;
+	margin: 5px;
+}
+
+#property span {
+	color: #777777;
+	text-transform: none;
+	font-weight: normal;
+	font-size: 14px;
+	display: block;
+}
+
+#property img {
+	float: left;
+	padding: 5px;
+}
+
+#property p a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #333333;
+}
+
+#property p a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+#property span {
+	font-size: 12px;
+}
+
+#property div {
+	background-color: white;
+	padding: 20px 10px;
+	border: 2px solid #00204B;
+	margin-top: 10px;
+}
+
+#property h1 {
+	margin: 0;
 }
